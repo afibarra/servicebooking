@@ -1,7 +1,7 @@
-package me.afibarra.servicebooking.model;
+package me.afibarra.servicebooking.service;
 
+import me.afibarra.servicebooking.model.Customer;
 import me.afibarra.servicebooking.repository.CustomerRepository;
-import me.afibarra.servicebooking.service.CustomerService;
 import org.springframework.stereotype.Service;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
